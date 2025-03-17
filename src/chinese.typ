@@ -3,28 +3,20 @@
 #show: template;
 
 #init(
-    name: "张三",
+    name: "吕坤",
     // 如不需要头像，可注释掉上面的 pic_path 行，或者将其置空
-    pic_path: "/img/avatar.jpg",
+    //pic_path: "/img/avatar.jpg",
     // pic_path : "",
 )
 
 #info(
-    color: rgb(0, 0, 0),
-    (
-        icon: "/img/fa/fa-home.svg",
-        link: "https://zhangsan.io/",
-        content: "https://zhangsan.io/"
-    ),
     (
         icon: fa_email,
-        link: "mailto:San%20Zhang<me@zahangsan.io>",
-        content: "me@zhangsan.io",
+        content: "08221999@cumt.edu.cn",
     ),
     (
         icon: fa_phone,
-        link: "tel:+86 133 3333 3333",
-        content: "+86 133 3333 3333",
+        content: "15505166601",
     ),
 )
 // // 如果info太长，可以多次调用info实现分行
@@ -39,18 +31,11 @@
 
 #resume_section("教育经历")
 
-#resume_item(
-  "家里蹲大学·计算机学院",
-  "硕士生 | 计算机技术",
-  "泵饶叙史掷陋谣邪苦豫锣旧技贸刃蛭！天绳顺。",
-  "2024.09 -- 2027.06（预计）"
-)
 
 #resume_item(
-  "家里蹲大学·软件工程学院",
-  "软件工程",
-  "普闯昨制动辞诬爸磨警据知示蝶这界解聪柔甚驳机禽赵。",
-  "2020.09 -- 2024.06"
+  "中国矿业大学·计算机科学与技术学院",
+  "人工智能",
+  "2022.09 -- 2024.06"
 )
 
 #resume_section([实践经历])
